@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;
-
-1,300&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap);* {
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
@@ -32,16 +30,35 @@ a {
 header {
   display: flex;
 }
-
 header .logo img {
   width: 100px;
 }
-
 header ul {
   display: flex;
 }
-
 header ul li {
   padding: 0 5px;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+main .jumbotron {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/jumbotron.jpg");
+}
+main .card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+}
+main .card-flex .card {
+  text-align: left;
+  color: white;
+  width: calc(16.6666666667% - 10px);
+  margin: 5px;
+}
+main .card-flex .card img {
+  height: 50%;
+}

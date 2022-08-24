@@ -1,6 +1,21 @@
 @extends('layouts.app')
 
 @section('main_content')
-<h1>ciao sono i fumetti</h1>
+<section>
+    <div class="jumbotron">
+    </div>
+    <div class="container">
+        <div class="card-flex">
+            @foreach ($comics_array as $comics)
+                <div class="card">
+                    <img src="{{$comics['thumb']}}" alt="{{$comics['title']}}">
+                    <h3>{{$comics['title']}}</h3>
+                </div>
+            @endforeach
+           
+        </div>
+        
+    </div>
+</section>
     
 @endsection
