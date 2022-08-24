@@ -8,7 +8,7 @@
                 <a href="/caracters">CHARACTERS</a>
             </li>
             <li>
-                <a href="/comics">COMICS</a>
+                <a href="{{route('fumetti')}}">COMICS</a>
             </li>
             <li>
                 <a href="/movies">MOVIES</a>
