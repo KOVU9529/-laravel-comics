@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/fumetti', function () {
+    $comics_array=config('comics');
     return view('fumetti');
 });
