@@ -25,15 +25,20 @@ a {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 header {
   display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 5px auto;
 }
 header .logo img {
   width: 100px;
 }
 header ul {
+  margin-top: 5%;
   display: flex;
 }
 header ul li {
@@ -43,10 +48,33 @@ header ul li {
 main {
   background-color: #1c1c1c;
 }
+main .page {
+  background-color: #1c1c1c;
+  height: 100vh;
+}
 main .jumbotron {
   width: 100%;
   height: 300px;
   background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
+main .main-end {
+  background-color: #0182fa;
+  color: white;
+  padding: 30px;
+}
+main .main-end ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main-end ul li {
+  display: flex;
+}
+main .main-end ul li img {
+  width: 25px;
+  height: 25px;
 }
 main .card-flex {
   display: flex;
@@ -61,4 +89,12 @@ main .card-flex .card {
 }
 main .card-flex .card img {
   height: 50%;
+}
+main .button {
+  margin: 0 45%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #0182fa;
+  padding: 5px;
 }

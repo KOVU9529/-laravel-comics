@@ -12,9 +12,8 @@
                     <h3>{{$comics['title']}}</h3>
                 </div>
             @endforeach
-           
         </div>
-        
+        <a class="button" href="#">LOAD MORE</a>
     </div>
 </section>
     

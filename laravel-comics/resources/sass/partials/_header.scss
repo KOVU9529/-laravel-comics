@@ -1,11 +1,15 @@
 header{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 5px auto;
     .logo{
         img{
             width: 100px;
         }
     }
     ul{
+        margin-top: 5%;
         display: flex;
         li{
             padding: 0 5px;

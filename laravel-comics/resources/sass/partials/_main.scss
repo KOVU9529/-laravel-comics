@@ -1,10 +1,36 @@
 main{
     background-color: #1c1c1c;
+    //homepage
+    .page{
+        background-color: #1c1c1c;
+        height: 100vh;
+
+    }
     .jumbotron{
         width: 100%;
         height: 300px;
         background-image: url('../img/jumbotron.jpg');
+        background-position:top;
+        background-size: cover;
     }
+    .main-end{
+        background-color: #0182fa;
+        color: white;
+        padding: 30px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                display: flex;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        } 
+    }
+    //fumetti
     .card-flex{
         display: flex;
         flex-wrap: wrap;
@@ -18,7 +44,13 @@ main{
                 height: 50%;
             }
         }
-
     }
-    
+    .button{
+        margin: 0 45%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #0182fa;
+        padding: 5px;
+    }
 }
