@@ -1,5 +1,5 @@
 <header>
-    <div>
+    <div class="logo">
         <img src="{{asset('img/dc-logo.png')}}" alt="DC logo">
     </div>
     <nav>
@@ -33,6 +33,9 @@
             </li>
             <li>
                 <a href="/shop">SHOP</a>
+            </li>
+            <li>
+                <input type="text" placeholder="search" > <i class="fa-solid fa-magnifying-glass"></i>
             </li>
         </ul>
     </nav>

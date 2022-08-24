@@ -29,3 +29,19 @@ a {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 0 5px;
+}
+
