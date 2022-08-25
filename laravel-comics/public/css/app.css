@@ -78,7 +78,7 @@ main .card-info {
   justify-content: space-between;
 }
 main .card-info .card-text {
-  width: 70%;
+  width: 80%;
 }
 main .card-info .card-text .green-price {
   color: white;
@@ -99,6 +99,28 @@ main .card-info .card-text .green-price .available {
 }
 main .card-info .card-img {
   text-align: right;
+}
+main .card-point {
+  background-color: #f6f6f6;
+}
+main .card-point .card-point-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+main .card-point .card-point-container .card-col-one {
+  padding: 5px;
+  width: 50%;
+}
+main .card-point .card-point-container .card-col-one p {
+  color: #0182fa;
+}
+main .card-point .card-point-container .card-col-two {
+  padding: 5px;
+  width: 50%;
+}
+main .card-point .card-point-container .card-col-two .serie {
+  color: #0182fa;
 }
 main .main-end {
   background-color: #0182fa;

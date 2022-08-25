@@ -29,8 +29,42 @@
                 <img  src="{{ $current_comics['thumb'] }}" alt="{{ $current_comics['title'] }}">
             </div>
         </div>
-        
+       
     </div>
+    <div class="card-point">
+        <div class="card-point-container">
+            <div class="card-col-one">
+                TALENT
+                <hr>
+                Art by: 
+                <p>
+                    @foreach ($current_comics['artists'] as $artists)
+                    {{$artists}}
+                    @endforeach
+                </p>
+                <hr>
+                Written by: 
+                <p>
+                    @foreach ($current_comics['writers'] as $writers)
+                    {{$writers}}
+                    @endforeach
+                </p>
+                <hr>
+            </div>
+            <div class="card-col-two">
+                SPECS
+                <hr>
+                Series: <span class="serie">{{ $current_comics['series'] }}</span>
+                <hr>
+                U.S. Price:  {{ $current_comics['price'] }}
+                <hr>
+                On Sale Date: {{ $current_comics['sale_date'] }}
+                <hr>
+            </div>
+
+        </div>
+        
+    </div> 
 </div>
     
 @endsection

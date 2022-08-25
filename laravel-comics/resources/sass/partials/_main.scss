@@ -32,7 +32,7 @@ main{
         display: flex;
         justify-content: space-between;
         .card-text{
-            width: 70%;
+            width: 80%;
             .green-price{
                 color: white;
                 background-color: #55ba5a;
@@ -54,6 +54,31 @@ main{
         .card-img{
             text-align: right;
         }
+    }
+    .card-point{
+        background-color: #f6f6f6;
+        .card-point-container{
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+            .card-col-one{
+                padding: 5px;
+                width: 50%;
+                p{
+                    color: #0182fa;
+                }
+            }
+            .card-col-two{
+                padding: 5px;
+                width: 50%;
+                .serie{
+                    color: #0182fa;
+                }
+    
+            }
+
+        }
+        
     }
     
     .main-end{
