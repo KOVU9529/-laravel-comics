@@ -13,10 +13,49 @@ main{
         background-position:top;
         background-size: cover;
     }
+    //singolo-fumetto
     .blu{
+        position: relative;
         background-color: #0182fa;
         height: 100px;
+        .img-singola{
+            position: absolute;
+            bottom: 30px;
+            left: 400px;
+            width: 120px;
+        }
     }
+    .info{
+        background-color: white;
+    }
+    .card-info{
+        display: flex;
+        justify-content: space-between;
+        .card-text{
+            width: 70%;
+            .green-price{
+                color: white;
+                background-color: #55ba5a;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .price{
+                    padding: 10px;
+                    border-right: 1px solid black;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 85%;
+                }
+                .available{
+                    padding: 10px;
+                }
+            }
+        }
+        .card-img{
+            text-align: right;
+        }
+    }
+    
     .main-end{
         background-color: #0182fa;
         color: white;

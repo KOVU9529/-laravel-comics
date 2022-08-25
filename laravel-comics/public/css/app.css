@@ -60,8 +60,45 @@ main .jumbotron {
   background-size: cover;
 }
 main .blu {
+  position: relative;
   background-color: #0182fa;
   height: 100px;
+}
+main .blu .img-singola {
+  position: absolute;
+  bottom: 30px;
+  left: 400px;
+  width: 120px;
+}
+main .info {
+  background-color: white;
+}
+main .card-info {
+  display: flex;
+  justify-content: space-between;
+}
+main .card-info .card-text {
+  width: 70%;
+}
+main .card-info .card-text .green-price {
+  color: white;
+  background-color: #55ba5a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card-info .card-text .green-price .price {
+  padding: 10px;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+main .card-info .card-text .green-price .available {
+  padding: 10px;
+}
+main .card-info .card-img {
+  text-align: right;
 }
 main .main-end {
   background-color: #0182fa;
