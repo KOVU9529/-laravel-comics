@@ -25,3 +25,20 @@ Route::get('/fumetti', function () {
     ];
     return view('fumetti', $data);
 })->name('fumetti');
+
+Route::get('/dettagli/{id}', function ($id) {
+    $comics_array=config('comics');
+    $current_comics= [];
+    foreach($comics_array as $comic){
+        if( $comic['id'] == $id){
+            $current_comics = $comic;
+        }
+    }
+
+    $data=[
+        'current_comics' => $current_comics,
+    ];
+
+    return view('dettagli-fumetto',$data);
+})->name('dettagli_fumetto');
+

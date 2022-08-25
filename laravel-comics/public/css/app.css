@@ -59,6 +59,10 @@ main .jumbotron {
   background-position: top;
   background-size: cover;
 }
+main .blu {
+  background-color: #0182fa;
+  height: 100px;
+}
 main .main-end {
   background-color: #0182fa;
   color: white;
