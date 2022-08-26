@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="card-img">
-                AVERTISEMENT
-                <img  src="{{ $current_comics['thumb'] }}" alt="{{ $current_comics['title'] }}">
+                ADVERTISEMENT 
+                <img  src="../img/unleash.jpg" alt="">
             </div>
         </div>
        

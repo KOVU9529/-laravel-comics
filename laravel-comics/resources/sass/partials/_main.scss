@@ -4,7 +4,6 @@ main{
     .page{
         background-color: #1c1c1c;
         height: 100vh;
-
     }
     .jumbotron{
         width: 100%;
@@ -32,7 +31,8 @@ main{
         display: flex;
         justify-content: space-between;
         .card-text{
-            width: 80%;
+            margin-right: 5px;
+            width: 75%;
             .green-price{
                 color: white;
                 background-color: #55ba5a;
@@ -53,6 +53,7 @@ main{
         }
         .card-img{
             text-align: right;
+            width: 25%;
         }
     }
     .card-point{
@@ -74,13 +75,9 @@ main{
                 .serie{
                     color: #0182fa;
                 }
-    
             }
-
         }
-        
     }
-    
     .main-end{
         background-color: #0182fa;
         color: white;
@@ -108,8 +105,11 @@ main{
             color: white;
             width: calc((100% / 6) - 10px);
             margin: 5px;
-            img{
-                height: 50%;
+            .cover{
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
+                object-position:top;
             }
         }
     }

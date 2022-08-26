@@ -11,7 +11,7 @@
                     <a href=" {{ route('dettagli_fumetto', [
                         'id' => $comics['id']
                     ]) }} ">
-                        <img src="{{$comics['thumb']}}" alt="{{$comics['title']}}">
+                        <img class="cover" src="{{$comics['thumb']}}" alt="{{$comics['title']}}">
                         <h3>{{$comics['title']}}</h3>
                     </a>
                 </div>
